@@ -10,7 +10,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>archives: 2021/5 | 周阿猫</title>
+  <title>Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor | 周阿猫</title>
 
   
     
@@ -377,52 +377,237 @@
     
 </header>
     <main class="main" style="margin-top: 60px;">
-      <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
-<div class="lazyload archive-header" data-original="/medias/archive.jpg" style="width: 100%;height: 50vh;overflow: hidden;background-size: cover; 
-background-position: center center;">
-<!-- <span class="title">archives</span> -->
+      
+ <!-- prismjs 代码高亮 -->
+ 
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;" :style="{'background-color': bgColor ? bgColor : 'transparent'}">
+    <transition-group tag="ul" :name="names">
+        <li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+            <img :src="image" class="bg-swiper-img">
+        </li>
+    </transition-group>
 </div>
-<div class="archive-main">
-  <section class="archive">
-    <div class="archive-content">
-      <ul class="post-archive">
+<script>
+    var vm = new Vue({
+        el: '#appBgSwiper',
+        data: {
+            names: '' || 'fade' || 'fade', // translate-fade fade
+            mark: 0,
+            img: [],
+            bgColor: '',
+            time: null
+        },
+        methods: {   //添加方法
+            change(i, m) {
+                if (i > m) {
+                    // this.names = 'fade';
+                } else if (i < m) {
+                    // this.names = 'fade';
+                } else {
+                    return;
+                }
+                this.mark = i;
+            },
+            prev() {
+                // this.names = 'fade';
+                this.mark--;
+                if (this.mark === -1) {
+                    this.mark = 3;
+                    return
+                }
+            },
+            next() {
+                // this.names = 'fade';
+                this.mark++;
+                if (this.mark === this.img.length) {
+                    this.mark = 0;
+                    return
+                }
+            },
+            autoPlay() {
+                // this.names = 'fade';
+                this.mark++;
+                if (this.mark === this.img.length) {
+                    this.mark = 0;
+                    return
+                }
+            },
+            play() {
+                let bgImgDelay = '' || '180000'
+                let delay = parseInt(bgImgDelay) || 180000;
+                this.time = setInterval(this.autoPlay, delay);
+            },
+            enter() {
+                clearInterval(this.time);
+            },
+            leave() {
+                this.play();
+            }
+        },
+        created() {
+            this.play()
+        },
+        beforeDestroy() {
+            clearInterval(this.time);
+        },
+        mounted() {
+            let prop = ''|| '';
+            let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://') 
+            if (isImg) {
+                let img = prop.split(',');
+                let configRoot = '/'
+                let arrImg = [];
+                img.forEach(el => {
+                    var Expression=/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+			        var objExp = new RegExp(Expression);
+
+                    if(objExp.test(el)) {
+                        // http or https
+                        arrImg.push(el);
+                    } else {
+                        // 非http or https开头
+                        // 本地文件
+                        let firstStr = el.charAt(0);
+                        if (firstStr == '/') {
+                            el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+                        }
+                        el = configRoot + el;
+                        arrImg.push(el);
+                    }
+                })
+                this.img = arrImg;
+            } else {
+                this.bgColor = prop;
+            }
+        }
+    })
+</script>
+
+<style>
+    .bg-swiper-box {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .bg-swiper-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+
+
+
+<div class="post-detail-header lazyload" id="thumbnail_canvas" data-original="/medias/QTEC.png" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0"></canvas>
+  
+    <div class="title-box">
+      
+          <span class="title">
+            Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor
+          </span>
         
-        
-          
-            
-            <div class="year" data-aos="zoom-in-up">
-                <div class="bullet"></div>
-                <a href="/archives/2021">2021</a>
-            </div>
-          
-          <li class="post-item" data-aos="fade-left">
-            <span class="post-date">05-08</span>
-            <a class="post-title" href="/2021/05/08/QTEC-S1-SAR/">Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor</a>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            <span class="post-date">05-08</span>
-            <a class="post-title" href="/2021/05/08/S1-QTP-timeseries/">Identifying soil freeze-thaw state using time-series high-resolution C-band synthetic aperture radar scattering and coherence in Qinghai-Tibet Plateau</a>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            <span class="post-date">05-08</span>
-            <a class="post-title" href="/2021/05/08/Lake-extraction/">A Practical Plateau Lake Extraction Algorithm Combining Novel Statistical Features and Kullback-Leibler Distance Using Synthetic Aperture Radar Imagery</a>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            <span class="post-date">05-08</span>
-            <a class="post-title" href="/2021/05/08/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
     </div>
-  </section>
+  
+  
+  
+    <script src="/js/bubble/bubble.js"></script>
   
 </div>
+
+
+<div class="row justify-position">
+  <div class="main-content">
+    <article class="post post-detail">
+      
+      
+      <div class="post-meta">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <span class="post-time">2021-05-08</span>
+      </div>
+      
+      <div class="post-tags-categories">
+        
+        
+      </div>
+      <div class="post-content">
+        <p>The freeze-thaw (FT) state of soil is an essential indicator for permafrost monitoring. However, generating a high spatial resolution FT map using optical remote sensing imagery remains challenging due to cloud contamination. In this letter, a new approach integrating images from two microwave sensors (i.e., Sentinel-1 and AMSR-2) was developed to identify the FT states of soil at a spatial resolution of 10m in the Qinghai-Tibet Engineering Corridor (QTEC). According to the empirical model, there is a monotonically increasing trend of the synthetic aperture radar (SAR) backscatter values as the land surface temperatures (LSTs) rise. Therefore, the high spatial resolution FT map can be produced employing thresholds extracted from AMSR-2 frozen frequency in Sentinel-1 SAR time-series images. We tested the FT results via both visual and quantitative evaluations. The FT maps for the four sub-areas are reasonable, and the overall accuracy for four meteorological stations achieves 83.07% and 77.10% for ascending and descending orbits, respectively. </p>
+<h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhou J, Xie Q, et al. Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor[J]. IEEE Geoscience and Remote Sensing Letters, 2021.</p>
+
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>author:  </strong>Amao Zhou</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>link:  </strong>
+    <a href="/2021/05/08/QTEC-S1-SAR/" target="_blank" title="Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor">http://example.com/2021/05/08/QTEC-S1-SAR/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>Copyright notice:   </strong>
+      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      reprint polocy. If reproduced, please indicate source!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      
+<div class="post-nav">
+
+
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img lazyload" data-original="/medias/FT_map.png" style="background-size: cover; 
+      background-position: center center;">
+    </div>
+    <a href="/2021/05/08/S1-QTP-timeseries/" class="post-nav-link">
+      <div class="title">
+        Next: <i class="fa fa-angle-right"></i>
+        <div>Identifying soil freeze-thaw state using time-series high-resolution C-band synthetic aperture radar scattering and coherence in Qinghai-Tibet Plateau</div>
+      </div>
+      <!-- <div class="content">
+        The soil freeze-thaw cycles play an important role in the cl
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+
+    <!-- 分享 -->
+    
+    
+    <!-- 评论 -->
+      
+        <div id="myComment">
+          
+        </div>
+      
+  </div>
+
+  
+</div>
+
+
     </main>
     <div class="footer bg-color">
   <div class="footer-main">
