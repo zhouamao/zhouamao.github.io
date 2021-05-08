@@ -13,7 +13,7 @@
 <meta property="og:title" content="周阿猫">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="周阿猫">
-<meta property="og:locale">
+<meta property="og:locale" content="en_US">
 <meta property="article:author" content="Amao Zhou">
 <meta name="twitter:card" content="summary">
   
@@ -61,8 +61,6 @@
 
   
   
-  
-    <link rel="stylesheet" href="/css/vdonate.css" >
   
 
 <meta name="generator" content="Hexo 5.4.0"></head>
@@ -175,9 +173,7 @@
         
           <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
         
-          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+          <a id="beautifont" class="main-nav-link" href="/publication">publication</a>
         
           <a id="beautifont" class="main-nav-link" href="/about">About</a>
         
@@ -221,12 +217,9 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p class="article-excerpt-content">
-          AbstractDue to wind-induced waves, dry sand and wet snow, and terrain shadows, the lake extraction from synthetic aperture radar (SAR) imagery in the Qinghai-Tibet Plateau (QTP) is accompanied by false alarms. In this paper, a practical plateau la...
-        </p>
-        <p class="article-more-link">
-          <a href="/2021/05/08/Lake-extraction/#more">Read More</a>
-        </p>
+        <h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>Due to wind-induced waves, dry sand and wet snow, and terrain shadows, the lake extraction from synthetic aperture radar (SAR) imagery in the Qinghai-Tibet Plateau (QTP) is accompanied by false alarms. In this paper, a practical plateau lake extraction algorithm combining novel statistical features and Kullback-Leibler distance (KLD) using SAR imagery has been proposed. Firstly, a mathematical description for the plateau lake surface called object-based generalized gamma distribution (OGD) features has been proposed, which is able to suppress the false alarms by using spatial context information as the large-scale descriptor. Secondly, the random forest (RF) classifier is used to train a multi-feature set, including conventional texture features and OGD features, and output an initial labeling result. Finally, to suppress the false alarms in the initial lake extraction results, automatic post-processing based on KLD has been used. The algorithm is tested by several experiments using Sentinel-1 SAR data, performing better than the state-of-the-art algorithms, achieving the overall accuracy (OA) of 99.54% while maintaining a false-alarm rate (FR) of 0.32%.</p>
+<h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhang Z, Chen Q, et al. A Practical Plateau Lake Extraction Algorithm Combining Novel Statistical Features and Kullback–Leibler Distance Using Synthetic Aperture Radar Imagery[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020, 13: 4702-4713.</p>
+
       
     </div>
     <footer class="article-footer">
@@ -271,13 +264,20 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p class="article-excerpt-content">
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New...
-        </p>
-        <p class="article-more-link">
-          <a href="/2021/05/08/hello-world/#more">Read More</a>
-        </p>
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
       
     </div>
     <footer class="article-footer">
@@ -345,9 +345,7 @@ Quick StartCreate a new post1$ hexo new &quot;My New...
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
   
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
+    <a href="/publication" class="mobile-nav-link">Publication</a>
   
     <a href="/about" class="mobile-nav-link">About</a>
   
