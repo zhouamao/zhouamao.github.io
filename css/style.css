@@ -529,14 +529,14 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   font-family: '楷体';
   font-size: 2rem;
   line-height: 1.3;
-  color: #fff;
+  color: #000;
   width: 100%;
   text-align: center;
   font-weight: normal;
 }
 .post-detail-header .typed-cursor {
   font-size: 2rem;
-  color: #fff;
+  color: #000;
 }
 @media (max-width: 551px) {
   .post-detail-header {
@@ -554,9 +554,8 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   justify-content: space-between;
 }
 .main-content {
-  width: 65%;
-  margin-right: 10px;
-  margin-left: calc(35% - 355px);
+  width: 75%;
+  margin: 0 auto;
   margin-top: 10px;
   transition: width 0.3s;
 }
