@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor</title>
+      <link href="/zhouamao/zhouamao.github.io/2021/05/08/QTEC-S1-SAR/"/>
+      <url>/zhouamao/zhouamao.github.io/2021/05/08/QTEC-S1-SAR/</url>
+      
+        <content type="html"><![CDATA[<p>The freeze-thaw (FT) state of soil is an essential indicator for permafrost monitoring. However, generating a high spatial resolution FT map using optical remote sensing imagery remains challenging due to cloud contamination. In this letter, a new approach integrating images from two microwave sensors (i.e., Sentinel-1 and AMSR-2) was developed to identify the FT states of soil at a spatial resolution of 10m in the Qinghai-Tibet Engineering Corridor (QTEC). According to the empirical model, there is a monotonically increasing trend of the synthetic aperture radar (SAR) backscatter values as the land surface temperatures (LSTs) rise. Therefore, the high spatial resolution FT map can be produced employing thresholds extracted from AMSR-2 frozen frequency in Sentinel-1 SAR time-series images. We tested the FT results via both visual and quantitative evaluations. The FT maps for the four sub-areas are reasonable, and the overall accuracy for four meteorological stations achieves 83.07% and 77.10% for ascending and descending orbits, respectively. </p><h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhou J, Xie Q, et al. Detection of Soil Freeze-thaw States at A High Spatial Resolution in Qinghai-Tibet Engineering Corridor[J]. IEEE Geoscience and Remote Sensing Letters, 2021.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Soil freeze-thaw detection </tag>
+            
+            <tag> Sentinel-1 </tag>
+            
+            <tag> AMSR-2 </tag>
+            
+            <tag> synthetic aperture radar (SAR) </tag>
+            
+            <tag> Qinghai-Tibet Engineering Corridor (QTEC) </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Identifying soil freeze-thaw state using time-series high-resolution C-band synthetic aperture radar scattering and coherence in Qinghai-Tibet Plateau</title>
+      <link href="/zhouamao/zhouamao.github.io/2021/05/08/S1-QTP-timeseries/"/>
+      <url>/zhouamao/zhouamao.github.io/2021/05/08/S1-QTP-timeseries/</url>
+      
+        <content type="html"><![CDATA[<p>The soil freeze-thaw cycles play an important role in the climate system and human activities. However, the harsh and complex environment on the Qinghai-Tibet Plateau (QTP) poses great challenges for both in situ observation and remote sensing monitoring of the soil freeze-thaw process. In this paper, the spatiotemporal variation of the high-resolution time-series of Sentinel-1 C-band synthetic aperture radar (SAR) is analyzed for identifying the freeze-thaw state of the soil. The scattering, including intensity and decomposition parameters, and coherence, are analyzed with regions of interests (ROIs) of different landcover types. The second-order and fourth-order Fourier functions are used to fit the scattering and coherence time-series, respectively, to build the mathematical models of SAR features over time. Based on those models, the initial freeze-thaw times of the soil are detected, and the corresponding map can be given. The results are cross-validated with the initial freeze-thaw time of the soil obtained from the MODIS land surface temperature (LST) products, showing that the difference in days is less than one revisit cycle of Sentinel-1. Furthermore, the environmental factors acquired from the meteorological station, including air temperature, ground surface temperature, snow depth, and precipitation, are discussed for evaluating the possible impact on scattering and coherence. This finding has shown that Sentinel-1 has great potential for soil freeze-thaw monitoring, which can obtain soil freeze-thaw state with a high spatial-temporal resolution and provides the start and end time of the active layer freeze-thaw process indirectly.</p><h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhang Z, Chen Q, et al. Identifying soil freeze-thaw state using time-series high-resolution C-band synthetic aperture radar scattering and coherence in Qinghai-Tibet Plateau[J]. Remote Sensing of Environment, 2021.</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A Practical Plateau Lake Extraction Algorithm Combining Novel Statistical Features and Kullback-Leibler Distance Using Synthetic Aperture Radar Imagery</title>
+      <link href="/zhouamao/zhouamao.github.io/2021/05/08/Lake-extraction/"/>
+      <url>/zhouamao/zhouamao.github.io/2021/05/08/Lake-extraction/</url>
+      
+        <content type="html"><![CDATA[<p>Due to wind-induced waves, dry sand and wet snow, and terrain shadows, the lake extraction from synthetic aperture radar (SAR) imagery in the Qinghai-Tibet Plateau (QTP) is accompanied by false alarms. In this paper, a practical plateau lake extraction algorithm combining novel statistical features and Kullback-Leibler distance (KLD) using SAR imagery has been proposed. Firstly, a mathematical description for the plateau lake surface called object-based generalized gamma distribution (OGD) features has been proposed, which is able to suppress the false alarms by using spatial context information as the large-scale descriptor. Secondly, the random forest (RF) classifier is used to train a multi-feature set, including conventional texture features and OGD features, and output an initial labeling result. Finally, to suppress the false alarms in the initial lake extraction results, automatic post-processing based on KLD has been used. The algorithm is tested by several experiments using Sentinel-1 SAR data, performing better than the state-of-the-art algorithms, achieving the overall accuracy (OA) of 99.54% while maintaining a false-alarm rate (FR) of 0.32%.</p><h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhang Z, Chen Q, et al. A Practical Plateau Lake Extraction Algorithm Combining Novel Statistical Features and Kullback–Leibler Distance Using Synthetic Aperture Radar Imagery[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020, 13: 4702-4713.</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/zhouamao/zhouamao.github.io/2021/05/08/hello-world/"/>
+      <url>/zhouamao/zhouamao.github.io/2021/05/08/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
