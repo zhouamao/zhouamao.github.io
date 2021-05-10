@@ -14,13 +14,13 @@
       
         <tags>
             
-            <tag> Soil freeze-thaw detection </tag>
+            <tag> synthetic aperture radar (SAR) </tag>
             
             <tag> Sentinel-1 </tag>
             
-            <tag> AMSR-2 </tag>
+            <tag> Soil freeze-thaw detection </tag>
             
-            <tag> synthetic aperture radar (SAR) </tag>
+            <tag> AMSR-2 </tag>
             
             <tag> Qinghai-Tibet Engineering Corridor (QTEC) </tag>
             
@@ -39,6 +39,24 @@
       
       
       
+        <tags>
+            
+            <tag> synthetic aperture radar (SAR) </tag>
+            
+            <tag> soil freeze-thaw cycle </tag>
+            
+            <tag> Sentinel-1 </tag>
+            
+            <tag> scattering </tag>
+            
+            <tag> coherence </tag>
+            
+            <tag> time-series </tag>
+            
+            <tag> Qinghai-Tibet Plateau </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -51,6 +69,20 @@
         <content type="html"><![CDATA[<p>Due to wind-induced waves, dry sand and wet snow, and terrain shadows, the lake extraction from synthetic aperture radar (SAR) imagery in the Qinghai-Tibet Plateau (QTP) is accompanied by false alarms. In this paper, a practical plateau lake extraction algorithm combining novel statistical features and Kullback-Leibler distance (KLD) using SAR imagery has been proposed. Firstly, a mathematical description for the plateau lake surface called object-based generalized gamma distribution (OGD) features has been proposed, which is able to suppress the false alarms by using spatial context information as the large-scale descriptor. Secondly, the random forest (RF) classifier is used to train a multi-feature set, including conventional texture features and OGD features, and output an initial labeling result. Finally, to suppress the false alarms in the initial lake extraction results, automatic post-processing based on KLD has been used. The algorithm is tested by several experiments using Sentinel-1 SAR data, performing better than the state-of-the-art algorithms, achieving the overall accuracy (OA) of 99.54% while maintaining a false-alarm rate (FR) of 0.32%.</p><h1 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h1><p>Zhou X, Zhang Z, Chen Q, et al. A Practical Plateau Lake Extraction Algorithm Combining Novel Statistical Features and Kullback–Leibler Distance Using Synthetic Aperture Radar Imagery[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020, 13: 4702-4713.</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Kullback–Leibler distance (KLD) </tag>
+            
+            <tag> lake extraction </tag>
+            
+            <tag> object-based generalized gamma distribution (OGΓD) </tag>
+            
+            <tag> Qinghai-Tibet plateau </tag>
+            
+            <tag> synthetic aperture radar (SAR) </tag>
+            
+        </tags>
       
     </entry>
     
