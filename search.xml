@@ -14,13 +14,13 @@
       
         <tags>
             
+            <tag> synthetic aperture radar (SAR) </tag>
+            
             <tag> soil freeze-thaw </tag>
             
             <tag> Sentinel-1 </tag>
             
             <tag> AMSR-2 </tag>
-            
-            <tag> synthetic aperture radar (SAR) </tag>
             
             <tag> Qinghai-Tibet Engineering Corridor (QTEC) </tag>
             
@@ -41,19 +41,19 @@
       
         <tags>
             
+            <tag> Qinghai-Tibet Plateau </tag>
+            
+            <tag> synthetic aperture radar (SAR) </tag>
+            
             <tag> soil freeze-thaw </tag>
             
             <tag> Sentinel-1 </tag>
-            
-            <tag> synthetic aperture radar (SAR) </tag>
             
             <tag> scattering </tag>
             
             <tag> coherence </tag>
             
             <tag> time-series </tag>
-            
-            <tag> Qinghai-Tibet Plateau </tag>
             
         </tags>
       
@@ -72,15 +72,15 @@
       
         <tags>
             
-            <tag> synthetic aperture radar (SAR) </tag>
-            
-            <tag> Qinghai-Tibet Plateau </tag>
-            
             <tag> Kullback–Leibler distance (KLD) </tag>
             
             <tag> lake extraction </tag>
             
             <tag> object-based generalized gamma distribution (OGΓD) </tag>
+            
+            <tag> Qinghai-Tibet Plateau </tag>
+            
+            <tag> synthetic aperture radar (SAR) </tag>
             
         </tags>
       
